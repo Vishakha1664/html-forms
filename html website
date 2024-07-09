@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza shop website - html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h2> Welcome to The Pizza Shop</h2>
+</header>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="about TPS#">About TPS</a></li>
+            <li><a href="#our menu">Our Menu</a></li>
+            <li><a href="#contact us">Contact Us</a></li>
+        </ul>
+        <figure>
+            <!-- <label for=""></label> -->
+            <img src="pizza.webp" height="200" alt="pizza image">
+        </figure>
+        <figcaption> <i> Our Famous Pizza </i></figcaption>
+    </nav>
+    <main>
+        <h2>About The Pizza Shop</h2>
+        <p>
+            The pizza shop was founded in <b>2023</b> By <b>Vishakha singhla</b>. Our shop was build from a <b>love of
+                pizza</b>. We hope our shop adds a unique and interesting place to our little town.
+        </p>
+        <h2>Our Menu </h2>
+        <table>
+            <caption><b><i> Special Pizzas</b></i></caption>
+            <thead>
+                <tr>
+            <tbody>
+                <th rowspan="4"> special pizza</th>
+                <th rowspan="2"> small (in Rs.)</th>
+                <th rowspan="2"> Large (in Rs.)</th>
+            </tbody>
+            </tr>
+            </thead>
+            <tr>
+                <td> CHEESY MARGAREETA</td>
+                <td> 199</td>
+                <td> 299</td>
+            </tr>
+            <tr>
+                <td>VEGGIE AFFAIR</td>
+                <td>209</td>
+                <td>309</td>
+            </tr>
+            <tr>
+                <td>CRISPY PEPPY PANEER</td>
+                <td>229</td>
+                <td>329</td>
+            </tr>
+            <tr>
+                <td> FARMHOUSE </td>
+                <td> 249 </td>
+                <td> 349 </td>
+            </tr>
+        </table>
+        <caption> *MAKE IT CHEESE BURST @50/-</caption>
+        <div>
+            <a href="#">Back to Top</a>
+        </div>
+
+    </main>
+    <footer>
+        <p> <i>Copyright &copy;The Pizza Shop </i></p>
+    </footer>
+    <h2> Contact Us</h2>
+    <nav>
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About TPS</a></li>
+            <li> <a href="#"> Our Menu</a></li>
+        </ul>
+    </nav>
+    <figure>
+        <img src="PIZZA3.webp" width="300" alt="
+            pizza image">
+    </figure>
+    <figcaption> <i>FAMOUS CHEESY HEART PIZZA</i></figcaption>
+    <h2> Our Contact Form </h2>
+    <form action="post"></form>
+    <div>
+        <label for="Name">Name: </label>
+        <input type="text" name="Name" id="Name" placeholder="Your name " required>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="Email" placeholder="Your Email" required>
+    </div>
+    <div>
+        <label for="number">Phone no:</label>
+        <input type="text" name="number" id="number" placeholder="Your phone number">
+    </div>
+    <div>
+        <label for="comment">Your Message:</label>
+        <br>
+        <textarea name="comment" id="comment" rows="8" cols="30">  Write your message here...</textarea>
+    </div>
+    <div>
+        <label for="submit"></label>
+        <input type="submit" name="submit" id="submit">
+        <label for="reset"></label>
+        <input type="reset" name="reset" id="reset">
+    </div>
+    <h2> Our Location </h2>
+    <p>
+        F-3/2, near Kumar Pav Bhaji, Block E, Krishna Nagar,
+        <br>New Delhi, Delhi, 110051
+    </p>
+    <p>
+        <i>Phone</i> <a href="#">123-456-7890</a>
+        <br>
+        <a href="#">Back to Top</a>
+    </p>
+</body>
+<footer>
+    <p> <i>Copyright &copy;The Pizza Shop </i></p>
+</footer>
+
+</html>
